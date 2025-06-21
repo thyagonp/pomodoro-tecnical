@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-contexto="foco">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pomodoro tecnical</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <header class="app__header">
+    <figure class="app__logo-figure">
+      <!-- <h1 class="app__logo-image">Pomodoro Tecnical</h1> -->
+      <img class="app__logo-image" src="./images/pomodoro.png" alt="" />
+    </figure>
+  </header>
+
+  <section class="app__content">
+    <h1 class="app__title">
+      Otimize sua produtividade,<br />
+      <strong class="app__title-strong">que tal uma ajuda da técnica pomodoro para focar nos estudos?</strong>
+    </h1>
+    <figure class="app__image-figure">
+      <img class="app__image" src="./images/gráfico de trabalho.gif" alt="" />
+    </figure>
+  </section>
+
+
+
+  <section class="banner">
+    <div class="app__card">
+      <ul class="app__card-list">
+        <li class="app__card-list-item">
+          <button data-contexto="foco" class="app__button button--foco active">foco</button>
+        </li>
+        <li class="app__card-list-item">
+          <button data-contexto="descanso" class="app__button button--curto">descanso</button>
+        </li>
+      </ul>
+      <div id="timer" class="app__card-timer"></div>
+      <ul class="app__card-list">
+            <li class="app__card-list-item">
+              <label class="toggle">
+                <input
+                  class="toggle-checkbox"
+                  type="checkbox"
+                  id="alternar-musica" />
+                <div class="toggle-switch"></div>
+              </label>
+            </li>
+            <li class="app__card-list-item">
+              <label class="app__card-list-label" for="alternar-musica">
+                Música
+              </label>
+            </li>
+          </ul>
+
+      <div class="app__card-primary-button-wrapper">
+        <button id="start-pause" class="app__card-primary-button">
+          <img class="app__card-primary-butto-icon" src="/images/play_arrow.png" alt="" />
+          <span>Começar</span>
+        </button>
+      </div>
+      <div class="app__checklist">
+        <h1>Minha Lista de Tarefas:</h1>
+        <div class="app__checklist-input">
+          <input type="text" id="itemInput" placeholder="Nova tarefa">
+          <button onclick="adicionarItem()">Adicionar</button>
+          <ul id="checklist"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+
+  </section>
+  <footer></footer>
+</body>
+
+</html>
