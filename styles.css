@@ -74,11 +74,11 @@ h1, h2, h3, h4, h5, h6 {
 .app__title-strong {
     font-weight: 600;
 }
-
 .banner {
     display: flex;
     justify-content: center;
     padding-top: 0px !important;
+    padding-bottom: 50px !important;
 }
 
 .app__card {
@@ -94,6 +94,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 2.4rem;
     display: grid;
     justify-content: center;
+    gap: 1.6rem;
 }
 
 .app__checklist button {
@@ -113,6 +114,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.8rem;
     color: white;
     background: rgba(255, 255, 255, 0.1);
+}
+.app__checklist-input{
+    display: contents;
 }
 
 .app__checklist h1 {
@@ -293,6 +297,7 @@ button {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 0px;
 
         .app__image{
             width: 350px;
@@ -314,7 +319,7 @@ button {
 
         .app__image{
             width: 350px;
-            height: 350px;
+            height: 270px;
         }
     }
 

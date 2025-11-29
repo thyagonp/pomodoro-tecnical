@@ -124,7 +124,7 @@ function mudarContexto(contexto) {
     foco.classList.add("active");
     image.setAttribute("src", "./images/gráfico de trabalho.gif");
     title.innerHTML =
-      'Otimize sua produtividade, <strong class="app__title-strong">que tal uma ajuda da técnica pomodoro para focar nos estudos?</strong>`';
+      'Otimize sua produtividade, <strong class="app__title-strong">que tal uma ajuda da técnica pomodoro para focar nos estudos?</strong>';
   } else {
     descanso.classList.add("active");
     image.setAttribute("src", "./images/Polar bear.gif");
