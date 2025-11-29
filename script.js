@@ -127,7 +127,7 @@ function mudarContexto(contexto) {
       'Otimize sua produtividade, <strong class="app__title-strong">que tal uma ajuda da técnica pomodoro para focar nos estudos?</strong>';
   } else {
     descanso.classList.add("active");
-    image.setAttribute("src", "./images/Polar bear.gif");
+    image.setAttribute("src", "./images/Polar Bear.gif");
     title.innerHTML =
       'Que tal dar uma respirada? <strong class="app__title-strong">Faça uma pausa!</strong>';
   }
